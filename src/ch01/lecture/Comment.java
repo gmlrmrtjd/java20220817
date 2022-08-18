@@ -21,6 +21,7 @@ public class Comment {
 		System.out.println("자바는 쉽지 않다");
 		System.out.println("잘 배워서 써먹어 보자");
 		
+		
 	}
 
 }
