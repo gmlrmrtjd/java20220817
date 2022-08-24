@@ -1,6 +1,6 @@
-package ch04.lecture;
+package ch04.lecture.p01control;
 
-public class C10 {
+public class C10for {
 	public static void main(String[] args) {
 		System.out.println("====================");
 		System.out.println("====================");
@@ -59,7 +59,7 @@ public class C10 {
 		for (int i = 5; i >=1; i --) {
 			for (int j = 1; j <= 5-i; j ++) {
 				System.out.print(" ");
-			}
+			
 			for (int a = 1; a <= i; a++) {
 			System.out.print("*");
 			}
