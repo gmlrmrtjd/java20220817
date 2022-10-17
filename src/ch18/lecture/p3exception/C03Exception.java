@@ -16,6 +16,9 @@ public class C03Exception {
 			OutputStream os = new FileOutputStream("");
 			InputStream is = new FileInputStream("");
 				) {
+			// 다시 할당할 수 없음
+//			os = new FileOutputStream("");
+		
 			// 읽고 쓰는 작업
 			os.write(3);
 			is.read();
